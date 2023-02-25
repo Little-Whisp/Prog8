@@ -80,6 +80,7 @@ header {
 
 body {
     background-image: url(https://cdn.discordapp.com/attachments/372804664053334016/1077891704100757554/2f55ba02ba3871cefffa5a4df56aeed8_11.png);
+    background-repeat: no-repeat;
     font-size: 18px;
     font-family: "Roboto Condensed", sans-serif;
     margin: 0;
@@ -112,6 +113,7 @@ text {
 
 section div {
     background-color: rgb(106, 100, 154);
+    background-repeat: no-repeat;
     margin: auto;
     padding-top: 3vh;
     padding-bottom: 3vh;
