@@ -44,7 +44,7 @@ classifier.classify(document.getElementById('image'), (err, result) => {
 function classify() {
     classifier.classify(document.getElementById('webcam'), (err, result) => {
         console.log(result); // Should output 'Hamster'
-        label.innerText = result[0].label + result[0].confidence ;
+        label.innerText = result[0].label;
         speak (result[0].label);
     });
 }
@@ -63,6 +63,3 @@ function speak(text) {
 }
 
 speak("Welcome to hamster or duck in disguise, put a picture of a hamster or duck in front of the webcam and click on classifier!")
-
-
-
